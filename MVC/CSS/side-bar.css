@@ -1,0 +1,119 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.sidenav {
+   position: fixed;
+  top: 90px;
+  left: 0px;
+  background:#404040;
+  width: 400px;
+  height: calc(110% - 70px);
+  border-bottom-left-radius: 20px;
+  transition: all 0.3s ease;
+}
+i
+{
+  color: white;
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  align-items: center;
+}
+.board{
+  display: flex;
+  align-items: center;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+ h1
+{
+  color: white;
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+ ul{
+  width: 70%;
+  text-align: left;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  list-style: none;
+  display: block;
+
+}
+.dorpdown ul{
+  display: block;
+}
+.sidenav ul li{
+
+  
+  display: inline-block;
+  list-style: none;
+  margin: 5px 6px;
+  
+
+}
+ .sidenav li a{
+
+  font-size: 25px;
+  padding: 0px 5px;
+  list-style: none;
+  margin: 2px 5px;
+  color: white;
+  text-decoration: none;
+  
+
+}
+.sidenav li a:hover{
+  color: mediumvioletred;
+  transition:all 0.4s ease 0s;
+
+}
+.sidenav hr{
+  border:0 ;
+  height: 3px;
+  width: 100%;
+  background: white;
+  margin: 15px 0 10px;
+}
+.email{
+  width: 100%;
+  text-align: left;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: bold;
+}
+
+.email a{
+  font-size: 25px;
+  padding: 0px 5px;
+  list-style: none;
+  margin: 2px 5px;
+  color: white;
+  text-decoration: none;
+  
+}
+
+.email a:hover{
+  color: mediumvioletred;
+  transition:all 0.4s ease 0s;
+
+}
+.mainr.item{
+
+  width:60%;
+  margin-left:auto ;
+  margin-right:auto;
+  font-size: 30px;
+  border-collapse: collapse;
+  
+
+}
